@@ -1,10 +1,15 @@
+:root {
+    --black: #000;
+}
+
+
 html,
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    color: #000;
+
 
 
 }
@@ -32,6 +37,7 @@ body {
 .header-title {
     margin-left: 143px;
     font-size: 64px;
+    color: var(--black);
 }
 
 .buttons {
@@ -62,7 +68,7 @@ body {
 
 .btn-white {
     background: white;
-    color: black;
+    color: var(--black);
 }
 
 .sectionbc {
@@ -83,6 +89,7 @@ body {
     margin-right: 20px;
     flex-direction: column;
     font-size: 64px;
+    color: var(--black);
 
 }
 
@@ -120,10 +127,10 @@ body {
     border: 1px solid red;
     height: 31.1vh;
     align-items: center;
-    text-align: center;
     justify-content: center;
     font-size: 96px;
     background-color: #00FF94;
+    color: var(--black);
 
 
 
@@ -136,6 +143,13 @@ body {
     border: 1px solid red;
     max-height: 400px;
     height: 29.31vh;
+    font-size: 96px;
+    justify-content: center;
+    align-items: center;
+    background: #0FD4FF;
+    color: var(--black);
+
+
 
 
 }
