@@ -4,6 +4,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    color: #000;
+
+
 }
 
 .container {
@@ -18,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 96.875%;
-    border: 1px solid red;
+    background: #FF002E;
     align-items: flex-start;
     justify-content: center;
     max-height: 400px;
@@ -26,6 +29,39 @@ body {
 
 }
 
+.header-title {
+    margin-left: 143px;
+    font-size: 64px;
+}
+
+.buttons {
+    margin-top: 38px;
+    display: flex;
+    margin-left: 143px;
+    gap: 50px;
+
+
+}
+.button{
+    width: 177px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-black {
+    background: #000D10;
+    color: #E7E7E7;
+}
+
+.btn-white {
+    background: white;
+    color: black;
+}
 .sectionbc {
     margin-top: 3.09vh;
     display: inline-flex;
