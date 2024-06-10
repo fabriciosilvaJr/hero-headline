@@ -64,9 +64,20 @@ body {
     background: #000D10;
     color: #E7E7E7;
 }
-
+.btn-black:hover {
+    filter: invert(1);
+}
 .btn-white {
     background: white;
+    color: var(--black);
+}
+.btn-white:hover {
+    background: var(--black);
+    color: white;
+
+}
+.btn-white:hover {
+    background: #D3D3D3;
     color: var(--black);
 }
 
